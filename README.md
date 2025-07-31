@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-This project demonstrates how Kubernetes manages both ephemeral and persistent storage. It showcases the use of emptyDir, PersistentVolume, and PersistentVolumeClaim to highlight differences in data lifecycle and retention across Pod restarts.
+This project demonstrates Kubernetes volume management by deploying a MySQL database with persistent storage and an Nginx app using ephemeral storage. It helps verify how data is retained or lost when pods are restarted or deleted. 
 <br />
 
 
